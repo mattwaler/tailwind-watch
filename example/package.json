@@ -1,15 +1,9 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
-  "description": "",
-  "main": "postcss.config.js",
+  "name": "example",
   "scripts": {
     "build": "NODE_ENV=production node ../index",
     "dev": "node ../index"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {},
   "devDependencies": {
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
