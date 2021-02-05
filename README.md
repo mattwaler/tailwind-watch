@@ -16,7 +16,7 @@ This tool does not install PostCSS, Tailwind, or anything else. Install those yo
 
 First, install the package:
 ```
-npm i -D @mattwaler/tailwind-watch
+npm i -D tailwind-watch
 ```
 
 If you don't already, make sure you've at least got PostCSS and Tailwind installed:
