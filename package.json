@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-watch",
+  "version": "0.0.1",
+  "description": "A tool to add tailwind to projects easily",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "tailwindcss"
+  ],
+  "author": "Matt Waler",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "node-watch": "^0.7.1"
+  },
+  "devDependencies": {}
+}
