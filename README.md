@@ -2,14 +2,15 @@
 
 A dead-simple package to intelligently watch your project for Tailwind-specific files and rebuild when they change.
 
-Keep Tailwind separate from your bundling process, if you're even still doing that kind of thing.
+This tool does not install PostCSS, Tailwind, or anything else. Install those yourself and use this tool to watch your files and rebuild when they change.
 
 ## Why might you use this?
 
-- Tired of configuring Tailwind and PostCSS through bundlers like Webpack and Rollup
+- You're having difficulty getting Tailwind/PostCSS working in your project
+- You're tired of configuring Tailwind and PostCSS through bundlers like Webpack and Rollup
 - You've evolved past bundlers to Skypack but still want to use Tailwind
-- Want control over all PostCSS and Tailwind configuration via configuration files in project root
-- Want intelligent watching and building, depending on `.env` variables and `process.env.NODE_ENV`
+- You want control over all PostCSS and Tailwind via configuration files in your project root
+- You want hands-free watching and building, depending on `.env` variables and `process.env.NODE_ENV`
 
 ## Installation & Usage
 
