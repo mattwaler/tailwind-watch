@@ -1,6 +1,6 @@
 {
   "name": "tailwind-watch",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A tool to add tailwind to projects easily",
   "main": "index.js",
   "scripts": {},
