@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 require('dotenv').config()
 const watch = require('node-watch');
 const { exec } = require("child_process");
