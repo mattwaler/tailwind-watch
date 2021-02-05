@@ -9,9 +9,7 @@
   ],
   "author": "Matt Waler",
   "license": "SEE LICENSE IN LICENSE",
-  "bin": {
-    "tailwind-watch": "index.js"
-  },
+  "bin": "index.js",
   "dependencies": {
     "dotenv": "^8.2.0",
     "node-watch": "^0.7.1"
