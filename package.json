@@ -3,7 +3,10 @@
   "version": "0.0.6",
   "description": "A tool to add tailwind to projects easily",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:build": "cd example && npm run build",
+    "test:dev": "cd example && npm run dev"
+  },
   "keywords": [
     "tailwindcss"
   ],
