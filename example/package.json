@@ -7,7 +7,7 @@
   "devDependencies": {
     "postcss": "^8.2.4",
     "postcss-cli": "^8.3.1",
-    "tailwind-watch": "0.0.5",
+    "tailwind-watch": "0.0.4",
     "tailwindcss": "^2.0.2"
   }
 }
