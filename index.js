@@ -32,7 +32,7 @@ if (NODE_ENV === 'production') {
 }
 
 // If not production, start the watcher
-const watcher = watch(__dirname, {
+const watcher = watch(process.cwd(), {
   recursive: true,
   filter(f, skip) {
     // Excludes
