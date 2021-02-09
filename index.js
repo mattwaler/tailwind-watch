@@ -44,7 +44,7 @@ const watcher = watch(__dirname, {
     if (f.endsWith('tailwind.config.js')) return true
     if (f.endsWith('postcss.config.js')) return true
     if (f.endsWith('.css')) return true
-    if (f.endsWith('pcss')) return true
+    if (f.endsWith('.pcss')) return true
     }
 })
 
