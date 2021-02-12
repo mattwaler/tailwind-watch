@@ -15,18 +15,20 @@ This tool does not install PostCSS, Tailwind, or anything else. Install those yo
 ## Installation & Usage
 
 First, install the package:
-```
+
+```shell
 npm i -D tailwind-watch
 ```
 
 If you don't already, make sure you've at least got PostCSS and Tailwind installed:
-```
+
+```shell
 npm i -D postcss postcss-cli tailwindcss
 ```
 
 Then, add input and output values to your `.env` file, or create it if it does not already exist, like so:
 
-```dotenv
+```shell
 TAILWIND_IN=src/input.css
 TAILWIND_OUT=dist/output.css
 ```
